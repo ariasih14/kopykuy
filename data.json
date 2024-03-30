@@ -1,41 +1,62 @@
 {
-    "arabica": [
+    "Arabica": [
         {
+            "nama": "Cappucino",
             "foto": "images/produk/product_capuchino.jpg",
-            "nama": "Cappuccino Arabica",
-            "size": "500 Gram",
-            "harga": "200.000",
-            "link": "https://www.google.com/search?q=cappuccino+arabica&tbm=shop"
+            "harga": "35.000",
+            "size": "250 ml"
         },
         {
+            "nama": "Espresso",
             "foto": "images/produk/product_espresso.jpg",
-            "nama": "Pahit Arabica",
-            "size": "100 Gram",
-            "harga": "100.000",
-            "link": "https://www.google.com/search?q=pahit+arabica&tbm=shop"
+            "harga": "45.000",
+            "size": "250 ml"
         },
         {
-            "foto": "images/produk/product_latte.jpg",
-            "nama": "Latte Arabica",
-            "size": "150 Gram",
-            "harga": "150.000",
-            "link": "https://www.google.com/search?q=latte+arabica&tbm=shop"
+            "nama": "Kopi Luwak",
+            "foto": "images/produk/kopi_luwak.jpg",
+            "harga": "20.000",
+            "size": "250 ml"
         }
     ],
-    "robusta": [
+    "Robusta": [
         {
-            "foto": "images/produk/product_kopi_susu.jpg",
-            "nama": "Kopsus Robusta",
-            "size": "100 Gram",
-            "harga": "500.000",
-            "link": "https://www.google.com/search?q=kopi+susu+robusta&tbm=shop"
+            "nama": "Latte",
+            "foto": "images/produk/product_latte.jpg",
+            "harga": "30.000",
+            "size": "250 ml"
         },
         {
-            "foto": "images/produk/product_latte.jpg",
-            "nama": "Latte Robusta",
-            "size": "150 Gram",
-            "harga": "150.000",
-            "link": "https://www.google.com/search?q=latte+robusta&tbm=shop"
+            "nama": "Kopi Susu",
+            "foto": "images/produk/product_kopi_susu.jpg",
+            "harga": "30.000",
+            "size": "250 ml"
+        },
+        {
+            "nama": "Americano",
+            "foto": "images/produk/americano.jpg",
+            "harga": "25.000",
+            "size": "250 ml"
         }
+    ],
+    "Non Kopi": [
+        {
+            "nama": "Es Teh",
+            "foto": "images/produk/es_teh.jpg",
+            "harga": "10.000",
+            "size": "250 ml"
+        },
+        {
+            "nama": "Coklat Panas",
+            "foto": "images/produk/coklat_panas.jpg",
+            "harga": "30.000",
+            "size": "250 ml"
+        },
+        {
+            "nama": "Jeruk Jumbo",
+            "foto": "images/produk/es_jeruk.jpg",
+            "harga": "10.000",
+            "size": "250 ml"
+        }    
     ]
 }

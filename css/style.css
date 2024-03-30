@@ -135,7 +135,7 @@ nav {
    untuk pengguna vscode silahkan arahkan mouse ke kotak warna di bawah
    untuk mengganti warna sesuai keinginan
    */
-   background-color: #198754;
+   background-color: #533200;
 
    /* box-shadow membuat efek bayangan */
    box-shadow: 0 3px 7px -2px #000;
@@ -186,7 +186,7 @@ a.shop {
 
 a.chat {
    margin-right: 30px;
-   background-color: rgb(8, 69, 8);
+   background-color: rgb(238, 103, 14);
    color: #fff;
    padding-top: 5px;
    padding-right: 15px;
@@ -227,6 +227,7 @@ header div.kanan {
    /* width mengatur lebar elemen. 50% artinya setengah ukuran elemen pembungkus */
    width: 50%;
    padding: 50px;
+   background-image: url(../images/background/bgkopi.png);
 }
 
 header h1 {
@@ -252,7 +253,7 @@ section.best-seller {
    position: relative;
 
    /* background-color mengatur warna latar belakang elemen */
-   background-color: #EEE6DC;
+   background-color: #eed5b7;
 
    /* text-align mengatur rata tulisan, bisa bernilai: left, right, center, justify */
    text-align: center;
@@ -271,7 +272,7 @@ section.best-seller::after {
    height: 76px;
 
    /* background-image untuk menambahkan gambar sebagai background */
-   background-image: url(../images/background/garis-atas.png);
+   background-image: url(../images/background/bgkopi.png);
 
    /*background-size agar gambar latar menyesuaikan tinggi / lebar elemen */
    background-size: cover;
@@ -282,7 +283,7 @@ section.best-seller::after {
 
 section.best-seller::after {
    height: 60px;
-   background-image: url(../images/background/garis-bawah.png);
+   background-image: url(../images/background/bgkopi.png);
    top: unset;
    bottom: -60px;
 }
@@ -356,10 +357,11 @@ section.about-us {
    margin-left: auto;
    margin-right: auto;
    text-align: center;
+   background-color: #eccda6;
 }
 
 section.about-us h2 {
-   margin-bottom: 30px;
+   margin-bottom: 20px;
    width: 100%;
 }
 
@@ -390,8 +392,8 @@ section.about-us p:nth-child(4) {
 /* OUR TEAM */
 
 section.our-team {
-   background-color: #EEE6DC;
-   box-shadow: inset 0px 0px 23px -6px #707070;
+   background-color: #eccda6;
+   box-shadow: inset 0px 0px 23px -6px #daab8b;
    text-align: center;
 }
 
@@ -428,7 +430,7 @@ div.team img {
 /* REVIEW */
 
 section.review {
-   background-image: url(../images/background/bg-review.svg);
+   background-image: url(../images/background/bgkopi.png);
    /* 
       background-size: contain;
       membuat gambar latar belakang tidak terpotong
@@ -464,7 +466,7 @@ div.testimoni {
    flex-wrap: wrap;
    padding: 35px 50px;
    box-shadow: 0px 0px 12px -10px #000;
-   background-color: #fff;
+   background-color: #e0c49f;
 }
 
 div.testimoni img {
@@ -506,7 +508,7 @@ section.contact-us iframe {
 div.kontak {
    width: 30%;
    /* color mengatur warna tulisan */
-   color: green;
+   color: rgb(63, 28, 9);
    text-align: center;
    margin-top: 50px;
 }
@@ -515,7 +517,7 @@ div.kontak {
 /* FOOTER */
 
 footer {
-   background-color: #198754;
+   background-color: #533200;
    padding-top: 15px;
    padding-bottom: 15px;
    color: #fff;
